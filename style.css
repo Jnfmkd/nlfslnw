@@ -1,0 +1,86 @@
+body {
+    background-image: url("https://beeldbank.prepublisher.com/pictures/Standaard/LHT/4/LHTC7944.JPG");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1800px 800px;
+    background-position: center;
+
+}
+
+
+
+
+table, th, td {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.image1 {  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   }
+
+
+   .image2 {  display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 500px;
+     height: 300px;
+      }
+
+
+#menu {
+tekst-uitlijnen: rechts;
+lettertype-familie: schreefloos;
+}
+
+#menu li {
+achtergrondkleur:#d40001;
+kleur: rgb(255, 223, 0);
+rand: 3px effen zwart;
+randradius: 10px;
+display: inline;
+vulling: 2px;
+}
+
+#menu a {
+tekst-decoratie: geen;
+kleur: rgb(0, 0, 0)
+}
+
+#menu li:hover {
+achtergrond-kleur: rood;
+}
+
+h1   {text-align: center;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 75px;
+  font-variant: small-caps;
+    font-weight: normal;
+     color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);}
+
+   h2 {text-align: center;
+     font-family: fantasy;
+     font-style: italic;
+     font-size: 50px;
+     font-variant: small-caps;
+       font-weight: normal;
+        color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);}
+
+      h3 {text-align: center;
+        font-family:  sans-serif;
+        font-style:  italic;
+        font-size: 35px;
+        font-variant: small-caps;
+          font-weight: normal;
+           color: rgb(0, 0, 0);
+         background-color: rgb(255, 255, 255);}
+
+        ul {font-size: 45px;
+        font-family: monospace;}
+
+        li {font-size: 35px;
+        font-family: monospace;}
